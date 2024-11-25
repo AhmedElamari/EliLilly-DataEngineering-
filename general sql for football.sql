@@ -108,3 +108,6 @@ SELECT *,
 CASE WHEN minute IS NULL THEN 'data missing' ELSE 'No Issues' 
 END AS data_quality_flag
 FROM goalscorers;
+
+
+
